@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header-container{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(167, 100, 1);
+    gap: 5px;
+    
+}
+
+.normal-box{
+    padding: 30px;
+    background-color: rgb(5, 27, 41);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 500px;
+    border-color: rgb(167, 132, 85);
+    /* border-radius: 10px; */
+}
+
+.normal-box li{
+    list-style: none;
+    display: inline-block;
+    color: rgb(167, 132, 85);
+}
+
+.normal-box a{
+    color: rgb(167, 100, 1);
+    text-decoration: none;
+    padding: 10px;
+    margin-top: -10px;
+}
+
+.welcome-box{
+    background-color: rgb(11, 21, 40);
+    width: 100%;
+    height: 300px;
+}
+
+.welcome-box-child{
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.welcome-box-child h1{
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(167, 100, 1);
+}
+
+.welcome-box p{
+    text-align: center;
+    color: rgb(167, 100, 1);
+    font-size: 25px;
+}
+
+.about-us-box{
+    background-color: rgb(167, 100, 1);
+    width: 100%;
+    height: 350px;
+    /* display: flex; */
+    justify-content: center;  
+      text-align: center;
+}
+
+.about-us-box h2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.about-us-box p{
+    /* font-size: 10px; */
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.catologue{
+    width: 100%; 
+     height: 550px;
+    /* padding: 30px; */
+    background-color: rgb(11, 21, 40);
+}
+
+.catologue-text{
+    text-align: center;
+    color: rgb(167, 100, 1);
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding: 30px;
+}
+
+.catlogue-box{
+    width: 90%;
+    height: 400px;
+    /* background-color: aqua; */
+    display: flex;
+    gap: 15px;   
+     border-radius: 10px;
+     padding-left: 5%;
+}
+
+.catlogue-box-child{
+    width: 30%;
+    /* background-color: rgb(240, 240, 240); */
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+.catlogue-box-parent{
+    width: 100%;
+    height: 85%;
+    text-align: center;
+}
+
+.catlogue-box-parent img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.catlogue-box-parent button{
+    margin-top: 20px;
+    font-size: 15px;    
+    cursor: pointer;
+    border-color: rgb(167, 100, 1);
+    border-radius: 10px;
+    width: 70%;
+    height: 9%;
+    background-color: rgb(5, 27, 41);
+    color: rgb(167, 100, 1);
+}
+
+.contact-us{
+    padding: 30px;
+    background-color: rgb(167, 100, 1);
+    height: 300px;
+    text-align: center;
+}
+
+
+/* responsive */
+
+@media (max-width: 930px){
+    .about-us-box p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 550px){
+
+    .welcome-box-child h1{
+        padding-top: 25px;
+        font-size: 20px
+    }
+
+    .welcome-box p{
+        font-size: 19px;
+    }
+    
+    .about-us-box p{
+        font-size: 11.5px;
+    }
+}
+
+@media (max-width: 890px){
+    /* .catologue{
+
+    } */
+}
+
+@media (max-width: 480px){
+
+}
+
+@media (max-width: 768px) {
+    .box {
+      flex: 1 1 calc(50% - 10px); /* Two items per row */
+    }
+  }
+  
+  
